@@ -1,0 +1,102 @@
+.padre{
+    background-color: rgb(239, 47, 57);
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 30% 300px auto auto auto  ; /* divide en columnas las cajas hijas*/
+    grid-template-rows: 100px 125px auto auto auto  auto;/*modifica el alto de las cajas*/
+    justify-content:space-between ;/*Justificar contenido, flex end al final, flex center, fles star*/
+    /*align-items: flex-end;*/
+}
+.hijo1{
+    background-color:rgb(115, 245, 45);
+    margin: 3px; /*margen*/
+    /*width: 100px; /*ancho
+    height: 100px; /*alto*/
+    border-style: dashed;
+    border-color: indigo;
+    font-size: 40px;
+   grid-column: 1/4;
+}
+.hijo2{
+    background-color:rgb(210, 246, 7);
+    margin: 3px; /*margen*/
+    /*width: 100px; /*ancho
+    height: 100px; /*alto*/
+    border-style: dashed;
+    border-color: indigo;
+    font-size: 40px;
+   grid-column: 1/2;
+}
+
+.hijo3{
+    background-color:rgb(92, 31, 235);
+    margin: 3px; /*margen*/
+    /*width: 100px; /*ancho
+    height: 100px; /*alto*/
+    border-style: dashed;
+    border-color: indigo;
+    font-size: 40px;
+   grid-column: 2/2;
+}
+.hijo4{
+    background-color:rgb(17, 152, 225);
+    margin: 3px; /*margen*/
+    /*width: 100px; /*ancho
+    height: 100px; /*alto*/
+    border-style: dashed;
+    border-color: indigo;
+    font-size: 40px;
+   grid-column: 3/4;
+}
+.hijo5{
+    background-color:rgb(17, 152, 225);
+    margin: 3px; /*margen*/
+    /*width: 100px; /*ancho
+    height: 100px; /*alto*/
+    border-style: dashed;
+    border-color: indigo;
+    font-size: 40px;
+   grid-column: 2/1;
+}
+.hijo6{
+    background-color:rgb(17, 152, 225);
+    margin: 3px; /*margen*/
+    /*width: 100px; /*ancho
+    height: 100px; /*alto*/
+    border-style: dashed;
+    border-color: indigo;
+    font-size: 40px;
+   grid-column: 2/4;
+}
+.hijo7{
+    background-color:rgb(225, 131, 17);
+    margin: 3px; /*margen*/
+    /*width: 100px; /*ancho
+    height: 100px; /*alto*/
+    border-style: dashed;
+    border-color: indigo;
+    font-size: 40px;
+   grid-column: 1/2;
+}
+.hijo8{
+    background-color:rgb(225, 17, 215);
+    margin: 3px; /*margen*/
+    /*width: 100px; /*ancho
+    height: 100px; /*alto*/
+    border-style: dashed;
+    border-color: indigo;
+    font-size: 40px;
+   grid-column: 2/4;
+}
+.hijo9{
+    background-color:rgb(183, 17, 225);
+    margin: 3px; /*margen*/
+    /*width: 100px; /*ancho
+    height: 100px; /*alto*/
+    border-style: dashed;
+    border-color: indigo;
+    font-size: 40px;
+   grid-column: 2/4;
+}
+
+
